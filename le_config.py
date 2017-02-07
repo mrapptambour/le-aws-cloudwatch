@@ -12,6 +12,6 @@ debug_token = os.environ.get('YOUR_DEBUG_TOKEN', '')
 # Log to generic activity from this script to our support logging system for Lambda scripts
 # this is optional, but helps us improve our service nad can be hand for us helping you debug any issues
 # just remove this token if you wish (leave variable in place)
-lambda_token = os.environ.get('LE_SUPPORT_TOKEN', '')
+lambda_token = os.environ.get('LE_SUPPORT_TOKEN', '0ae0162e-855a-4b54-9ae3-bd103006bfc0')
 
 username = os.environ.get('YOUR_USERNAME', '')
